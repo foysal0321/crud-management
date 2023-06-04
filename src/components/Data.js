@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useLoaderData } from 'react-router';
 import { Link } from 'react-router-dom';
 
-const Item = () => {
+const Data = () => {
     const data = useLoaderData()
     const [displayuser, setdisplayuser] = useState(data)
 
@@ -58,4 +58,4 @@ const Item = () => {
     );
 };
 
-export default Item;
+export default Data;

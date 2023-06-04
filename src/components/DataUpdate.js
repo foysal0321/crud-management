@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useLoaderData } from 'react-router';
 import { Link } from 'react-router-dom';
 
-const Update = () => {
+const DataUpdate = () => {
     const data = useLoaderData()
     const [user,setuser] = useState(data);
 
@@ -50,4 +50,4 @@ const Update = () => {
     );
 };
 
-export default Update;
+export default DataUpdate;
